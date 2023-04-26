@@ -6,4 +6,7 @@ def is_prime(x):
 
 while True:
     p = int(input())
-    print(is_prime(p))
+    if p < 2:
+        exit()
+    else:
+        print(is_prime(p))
